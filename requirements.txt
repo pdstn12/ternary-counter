@@ -1,0 +1,10 @@
+torch>=2.3
+transformers>=4.51
+datasets>=3.0
+accelerate
+psutil
+numpy
+huggingface_hub
+# 9B (Bonsai) only:
+# flash-linear-attention   (optional, faster gated delta-net kernel)
+# gguf                     (from llama.cpp/gguf-py, for reading/writing GGUF)
